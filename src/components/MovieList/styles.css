@@ -1,0 +1,9 @@
+.ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  padding: 25px;
+  margin: 0;
+}

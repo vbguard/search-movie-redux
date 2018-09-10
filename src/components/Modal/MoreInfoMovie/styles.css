@@ -1,0 +1,104 @@
+.wrapper {
+  position: fixed;
+  top: 20%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  max-height: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: repeat(auto-fill, minmax(100px));
+  grid-column-gap: 15px;
+  padding-right: 10px;
+}
+
+.image {
+  border-radius: 10px 0 0 10px;
+  grid-area: 5 span;
+  /* width: 400px; */
+}
+
+.title {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.originTitle {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: rgba(95, 95, 95, 0.856);
+}
+
+.genresWrap {
+  display: flex;
+}
+
+.genresListTitle {
+  margin: 0;
+  line-height: 2;
+  margin-right: 10px;
+}
+
+.genresList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.genresItem {
+  display: flex;
+  line-height: 2;
+  margin-right: 5px;
+}
+
+.genresItem::after {
+  content: ',';
+  display: block;
+}
+
+.genresItem:last-child {
+  margin-right: 0;
+}
+
+.genresItem:last-child::after {
+  display: none;
+}
+
+.genresOverview {
+  font-size: 14px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin: 0;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.closeBtn:hover .btnIcon {
+  fill: #ff5722;
+}

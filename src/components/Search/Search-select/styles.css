@@ -1,0 +1,15 @@
+.SearchSelect {
+  flex: 0 0 250px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.SearchSelectTitle {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}

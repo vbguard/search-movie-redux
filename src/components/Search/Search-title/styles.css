@@ -1,0 +1,36 @@
+.SearchForm {
+  flex: 0 0 250px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+
+.SearchInput {
+  width: 100%;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.SearchTitleLabel {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.SearchTitleBtn {
+  position: absolute;
+  padding: 2px;
+  top: 45px;
+  right: 30px;
+  width: 10px;
+  height: 15px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.SearchTitleIcon {
+  width: 20px;
+  height: 20px;
+}

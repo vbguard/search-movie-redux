@@ -1,0 +1,31 @@
+.WatchListWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.watchList {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+.watchListItem {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.watchListItem:last-child {
+  margin-bottom: 0;
+}
+
+.WatchListTitle {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  padding-bottom: 5px;
+  border-radius: 3px;
+  text-align: center;
+}

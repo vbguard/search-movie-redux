@@ -1,0 +1,125 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px;
+  background-color: #fff;
+  min-height: auto;
+  position: relative;
+  transition: all linear 2s;
+  box-shadow: 0 0 5px #424242;
+}
+
+.Card:hover>.CardInfo {
+  display: flex;
+  transition: all linear 2s;
+}
+
+.CardInfo {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all linear 2s;
+}
+
+.CardVote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 55px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #FF5722;
+  border-radius: 0 0 15px 0;
+  text-align: center;
+  line-height: 40px;
+  color: #F5F5F5;
+  transition: all linear 5s;
+}
+
+.CardTitle {
+  max-width: 90%;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  transition: all linear 2s;
+}
+
+.CardOverviewBox {}
+
+.CardOverview {
+  /* padding-right: 10px; */
+  hyphens: auto;
+}
+
+.CardOption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.AddToWatchlist {
+  text-align: center;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #ffffff;
+  fill: #FF5722;
+  transition: all linear 0.3s;
+}
+
+.AddToWatchlist:hover {
+  box-shadow: inset 0 0 7px 3px rgba(255, 255, 255, 0.2);
+  background-color: #FF5722;
+  fill: #FFFFFF;
+}
+
+.AddToWatchlist:active {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+}
+
+.MoreInfo {
+  text-align: center;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #FF5722;
+  transition: all linear 0.3s;
+}
+
+.MoreInfo:hover {
+  box-shadow: inset 0 0 7px 3px rgba(255, 255, 255, 0.2);
+  background-color: #FF5722;
+  fill: #FFFFFF;
+}
+
+.MoreInfo:active {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
